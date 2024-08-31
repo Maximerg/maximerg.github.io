@@ -9,6 +9,10 @@ header {
     background-color: #ADD8E6;
     color: #FFF;
     padding: 60px 20px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
 }
 
