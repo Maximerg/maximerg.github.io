@@ -6,12 +6,26 @@ body {
 }
 
 header {
-    background-color: #002249; /* Couleur bleu foncé, similaire au style Sotheby's */
-    color: #ffffff; /* Texte blanc pour un bon contraste */
-    height: 100px; /* Ajuster selon la taille souhaitée */
+    background-color: #002249; /* Couleur bleu foncé */
+    color: #ffffff;
+    height: 100px; /* Hauteur de la bande */
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px; /* Espacement intérieur */
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 nav ul {
@@ -22,7 +36,7 @@ nav ul {
 }
 
 nav ul li {
-    margin-right: 20px;
+    margin-left: 20px;
 }
 
 nav ul li a {
@@ -34,8 +48,9 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #00aaff; /* Lien hover pour l'interaction */
+    color: #00aaff; /* Couleur sur hover */
 }
+
 
 main {
     padding: 20px;
