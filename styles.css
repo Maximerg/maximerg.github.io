@@ -1,44 +1,36 @@
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
 }
-
-.logo h1 {
-    font-family: 'Bodoni Moda', serif;
-    font-size: 36px;
-    font-weight: 700;
-}
-
 
 header {
-    background-color: #002249; /* Couleur bleu foncé */
-    color: #ffffff;
-    height: 100px; /* Hauteur de la bande */
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-color: #ffffff; /* Couleur blanche */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre subtile */
+    padding: 10px 20px;
+    position: relative;
 }
 
 .header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    padding: 0 20px; /* Espacement intérieur */
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .logo h1 {
-    margin: 0;
+    font-family: 'Benton Sans', sans-serif; /* Police similaire à Barnes */
     font-size: 24px;
     font-weight: bold;
+    color: #333;
+    margin: 0;
 }
 
 nav ul {
     list-style: none;
-    padding: 0;
     margin: 0;
+    padding: 0;
     display: flex;
 }
 
@@ -47,16 +39,36 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #ffffff;
     text-decoration: none;
-    font-weight: bold;
-    font-size: 16px;
+    color: #333;
+    font-weight: 600;
     transition: color 0.3s;
 }
 
 nav ul li a:hover {
-    color: #00aaff; /* Couleur sur hover */
+    color: #007bff; /* Couleur bleue sur hover */
 }
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-right a {
+    color: #333;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.header-right a:hover {
+    color: #007bff; /* Couleur bleue sur hover */
+}
+
+.header-right i {
+    font-size: 18px;
+}
+
 
 
 main {
