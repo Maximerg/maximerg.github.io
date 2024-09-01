@@ -5,71 +5,19 @@ body {
 }
 
 header {
-    background-color: #ffffff; /* Couleur blanche */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre subtile */
-    padding: 50px 100px;
-    position: relative;
-}
-
-.header-container {
+    background-color: #002249; /* Couleur bleu foncé */
+    height: 150px; /* Augmentation de la hauteur de l'en-tête */
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
+    justify-content: center;
+    color: #ffffff; /* Texte en blanc */
 }
 
-.logo h1 {
-    font-family: 'Benton Sans', sans-serif; /* Police similaire à Barnes */
-    font-size: 24px;
+.header-container h1 {
+    font-size: 36px; /* Taille de la police plus grande */
+    margin: 0;
     font-weight: bold;
-    color: #333;
-    margin: 0;
 }
-
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-nav ul li {
-    margin-left: 20px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #333;
-    font-weight: 600;
-    transition: color 0.3s;
-}
-
-nav ul li a:hover {
-    color: #007bff; /* Couleur bleue sur hover */
-}
-
-.header-right {
-    display: flex;
-    align-items: center;
-}
-
-.header-right a {
-    color: #333;
-    text-decoration: none;
-    margin-left: 20px;
-    font-size: 18px;
-}
-
-.header-right a:hover {
-    color: #007bff; /* Couleur bleue sur hover */
-}
-
-.header-right i {
-    font-size: 18px;
-}
-
-
 
 main {
     padding: 20px;
