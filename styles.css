@@ -28,7 +28,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #001a33; /* Couleur légèrement différente pour séparer visuellement */
 }
 
 nav ul {
