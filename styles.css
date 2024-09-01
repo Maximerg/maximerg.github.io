@@ -14,7 +14,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-bottom: 2px solid #ffffff; /* Ligne blanche entre les deux sections */
+    border-bottom: 4px solid #ffffff; /* Ligne blanche entre les deux sections */
 }
 
 .header-top h1 {
@@ -28,6 +28,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #001a33; /* Couleur légèrement différente pour séparer visuellement */
 }
 
 nav ul {
