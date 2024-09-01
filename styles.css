@@ -14,7 +14,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-bottom: 4px solid #ffffff; /* Ligne blanche entre les deux sections */
+    border-bottom: 2px solid #ffffff; /* Ligne blanche entre les deux sections */
 }
 
 .header-top h1 {
