@@ -6,14 +6,35 @@ body {
 }
 
 header {
-    background-color: #002249;
-    color: #FFF;
-    padding: 60px 20px;
-    height: 180px;
+    background-color: #002249; /* Couleur bleu foncé, similaire au style Sotheby's */
+    color: #ffffff; /* Texte blanc pour un bon contraste */
+    height: 100px; /* Ajuster selon la taille souhaitée */
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #00aaff; /* Lien hover pour l'interaction */
 }
 
 main {
