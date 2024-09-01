@@ -7,7 +7,7 @@ body {
 header {
     background-color: #ffffff; /* Couleur blanche */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre subtile */
-    padding: 10px 20px;
+    padding: 20px 40px;
     position: relative;
 }
 
