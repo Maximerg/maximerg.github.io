@@ -6,7 +6,7 @@ body {
 
 header {
     background-color: #002249; /* Couleur bleu foncé */
-    height: 250px; /* Augmentation de la hauteur de l'en-tête */
+    height: 180px; /* Augmentation de la hauteur de l'en-tête */
     display: flex;
     align-items: center;
     justify-content: center;
