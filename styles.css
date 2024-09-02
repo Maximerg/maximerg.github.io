@@ -52,8 +52,8 @@ nav ul li a:hover {
     color: #00aaff; /* Couleur bleue sur hover */
 }
 
-main {
-    padding: 20px;
+.image-piscine {
+    height: 800px;
 }
 
 footer {
