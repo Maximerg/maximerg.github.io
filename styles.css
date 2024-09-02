@@ -16,6 +16,19 @@ header {
     justify-content: center;
     border-bottom: 1px solid #ffffff; /* Ligne blanche entre les deux sections */
     font-family: Times New Roman, Times, Serif;
+    position: relative; /* Nécessaire pour positionner le logo à droite */
+}
+
+.social-media {
+    position: absolute;
+    right: 20px; /* Positionne le logo à droite */
+    top: 50%;
+    transform: translateY(-50%); /* Centre verticalement le logo */
+}
+
+.instagram-logo {
+    width: 30px;
+    height: 30px;
 }
 
 .header-top h1 {
