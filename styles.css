@@ -30,6 +30,11 @@ header {
     width: 30px;
     height: 30px;
     background: none;
+    transition: filter 0.3s; /* Pour un effet de transition doux */
+}
+
+.instagram-logo:hover {
+    filter: invert(50%) sepia(100%) saturate(1000%) hue-rotate(180deg) brightness(100%) contrast(100%);
 }
 
 .header-top h1 {
