@@ -15,6 +15,7 @@ header {
     align-items: center;
     justify-content: center;
     border-bottom: 1px solid #ffffff; /* Ligne blanche entre les deux sections */
+    font-family: Times New Roman, Times, Serif;
 }
 
 .header-top h1 {
