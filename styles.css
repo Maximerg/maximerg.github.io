@@ -90,3 +90,25 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container img {
+    display: block;
+    width: 100%; /* S'adapte à la taille du conteneur */
+    height: auto;
+}
+
+.text-overlay {
+    position: absolute;
+    bottom: 10px; /* Ajuste selon la position désirée */
+    right: 10px; /* Ajuste selon la position désirée */
+    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent */
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px; /* Taille du texte */
+    border-radius: 5px; /* Coins arrondis */
+}
