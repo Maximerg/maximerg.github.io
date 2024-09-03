@@ -67,6 +67,7 @@ nav ul li a {
     color: #ffffff;
     font-weight: 600;
     transition: color 0.3s;
+    font-family: Arial, sans-serif;
 }
 
 nav ul li a:hover {
