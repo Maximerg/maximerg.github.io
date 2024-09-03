@@ -93,7 +93,7 @@ footer {
 
 .image-container {
     position: relative;
-    display: inline-block;
+    display: inline-block; /* Assure que l'image et le texte restent ensemble */
 }
 
 .image-container img {
@@ -104,11 +104,12 @@ footer {
 
 .text-overlay {
     position: absolute;
-    bottom: 10px; /* Ajuste selon la position désirée */
-    right: 10px; /* Ajuste selon la position désirée */
-    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent */
+    bottom: 10px; /* Position en bas */
+    right: 10px; /* Position à droite */
+    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent pour la lisibilité */
     color: white;
     padding: 5px 10px;
     font-size: 14px; /* Taille du texte */
     border-radius: 5px; /* Coins arrondis */
 }
+
