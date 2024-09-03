@@ -104,12 +104,12 @@ footer {
 
 .text-overlay {
     position: absolute;
-    bottom: 10px; /* Position en bas */
-    right: 10px; /* Position à droite */
+    bottom: -100px; /* Position en bas */
+    right: 100px; /* Position à droite */
     background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent pour la lisibilité */
     color: white;
     padding: 5px 10px;
-    font-size: 14px; /* Taille du texte */
+    font-size: 10px; /* Taille du texte */
     border-radius: 5px; /* Coins arrondis */
 }
 
