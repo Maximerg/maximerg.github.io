@@ -106,10 +106,10 @@ footer {
     position: absolute;
     bottom: -100px; /* Position en bas */
     right: 100px; /* Position à droite */
-    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent pour la lisibilité */
     color: white;
     padding: 5px 10px;
     font-size: 15px; /* Taille du texte */
     border-radius: 5px; /* Coins arrondis */
+    font-weight: bold;
 }
 
