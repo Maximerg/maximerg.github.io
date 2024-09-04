@@ -81,6 +81,11 @@ nav ul li a:hover {
     object-position: center bottom;
 }
 
+.presentation {
+    height: 500px;
+}
+
+    
 footer {
     text-align: center;
     padding: 10px;
