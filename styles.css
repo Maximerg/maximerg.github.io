@@ -111,5 +111,6 @@ footer {
     font-weight: bold;
     padding: 0; /* Aucun espacement supplémentaire */
     background: none; /* Pas de fond */
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
 
