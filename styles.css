@@ -93,23 +93,23 @@ footer {
 
 .image-container {
     position: relative;
-    display: inline-block; /* Assure que l'image et le texte restent ensemble */
+    display: inline-block;
 }
 
 .image-container img {
     display: block;
-    width: 100%; /* S'adapte à la taille du conteneur */
+    width: 100%;
     height: auto;
 }
 
 .text-overlay {
     position: absolute;
-    bottom: -100px; /* Position en bas */
-    right: 100px; /* Position à droite */
+    bottom: 10px; /* Position ajustée en bas */
+    right: 10px; /* Position ajustée à droite */
     color: white;
-    padding: 5px 10px;
-    font-size: 15px; /* Taille du texte */
-    border-radius: 5px; /* Coins arrondis */
+    font-size: 15px;
     font-weight: bold;
+    padding: 0; /* Aucun espacement supplémentaire */
+    background: none; /* Pas de fond */
 }
 
