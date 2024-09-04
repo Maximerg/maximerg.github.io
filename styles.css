@@ -91,26 +91,3 @@ footer {
     bottom: 0;
 }
 
-.image-container {
-    position: relative;
-    display: inline-block;
-}
-
-.image-container img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-.text-overlay {
-    position: absolute;
-    bottom: 100px; /* Position ajustée en bas */
-    right: 230px; /* Position ajustée à droite */
-    color: white;
-    font-size: 18px;
-    font-weight: bold;
-    padding: 0; /* Aucun espacement supplémentaire */
-    background: none; /* Pas de fond */
-    font-family: "Open Sans", Arial, Helvetica, sans-serif;
-}
-
