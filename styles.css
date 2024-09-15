@@ -15,7 +15,6 @@ header {
     align-items: center;
     justify-content: center;
     border-bottom: 1px solid #ffffff; /* Ligne blanche entre les deux sections */
-    font-family: Times New Roman, Times, Serif;
     position: relative; /* Nécessaire pour positionner le logo à droite */
 }
 
@@ -67,7 +66,6 @@ nav ul li a {
     color: #ffffff;
     font-weight: 600;
     transition: color 0.3s;
-    font-family: Arial, sans-serif;
 }
 
 nav ul li a:hover {
