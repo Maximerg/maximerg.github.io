@@ -56,8 +56,7 @@ nav ul {
 }
 
 nav ul li {
-    margin-left: 35px;
-    margin-right: 35px;
+   margin: auto 5vh;
 }
 
 nav ul li a {
