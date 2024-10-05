@@ -10,7 +10,7 @@ header {
 }
 
 .header-top {
-    height: 12vh; /* 2/3 de la hauteur totale */
+    height: 16vh; /* 2/3 de la hauteur totale */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -42,7 +42,7 @@ header {
 }
 
 .header-bottom {
-    height: 6vh; /* 1/3 de la hauteur totale */
+    height: 8vh; /* 1/3 de la hauteur totale */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -72,7 +72,7 @@ nav ul li a:hover {
 
 .image-un {
     width: 100%;
-    height: 650px;
+    height: 900px;
     object-fit: cover;
     object-position: center bottom;
 }
