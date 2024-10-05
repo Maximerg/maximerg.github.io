@@ -70,8 +70,8 @@ nav ul li a:hover {
     color: #00aaff; /* Couleur bleue sur hover */
 }
 
-.image-un {
-    width: 100%;
+.image-un, image-deux {
+    width: 25%;
     height: 650px;
     object-fit: cover;
     object-position: center bottom;
