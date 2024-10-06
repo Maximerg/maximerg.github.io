@@ -83,7 +83,6 @@ nav ul li a:hover {
 section {
     padding: 50px;
     margin: 0 auto;
-    width: 100%;
     min-height: 100vh; /* Donne une bonne hauteur pour que chaque section soit visible */
     border-bottom: 3px solid #002249; /* Pour séparer visuellement les sections */
 }
