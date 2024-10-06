@@ -88,8 +88,12 @@ section {
     border-bottom: 3px solid #002249; /* Pour séparer visuellement les sections */
 }
 
+/* Centrer les titres dans toutes les sections */
 section h2 {
-    justify-content: center;
+    text-align: center; /* Centre le texte */
+    font-size: 2rem; /* Taille du texte (ajustable) */
+    margin-bottom: 20px; /* Espace sous le titre */
+    color: #002249; /* Couleur des titres, personnalisable */
 }
 
 .services {
