@@ -79,10 +79,39 @@ nav ul li a:hover {
     object-position: center bottom;
 }
 
-.presentation {
-    height: 500px;
+/* Style de base pour les sections */
+section {
+    padding: 50px;
+    margin: 0 auto;
+    width: 90%;
+    min-height: 80vh; /* Donne une bonne hauteur pour que chaque section soit visible */
+    border-bottom: 1px solid #ddd; /* Pour séparer visuellement les sections */
 }
 
+.services {
+    background-color: #f0f8ff; /* Couleur de fond pour la section Services */
+}
+
+.realisations {
+    background-color: #faebd7; /* Couleur de fond pour la section Réalisations */
+}
+
+.equipe {
+    background-color: #ffe4e1; /* Couleur de fond pour la section Équipe */
+}
+
+.contact {
+    background-color: #f5f5f5; /* Couleur de fond pour la section Contact */
+}
+
+.devis {
+    background-color: #f0fff0; /* Couleur de fond pour la section Demander un devis */
+}
+
+/* Effet de défilement fluide */
+html {
+    scroll-behavior: smooth;
+}
     
 footer {
     text-align: center;
