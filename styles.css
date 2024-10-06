@@ -92,3 +92,37 @@ footer {
     bottom: 0;
 }
 
+@media (max-width: 768px) {
+    .header-top {
+        flex-direction: column; /* Les éléments dans l'en-tête seront empilés en colonne */
+        height: auto; /* Ajuste la hauteur automatiquement */
+        padding: 20px; /* Ajouter un peu de padding pour l'espacement */
+    }
+
+    .header-bottom {
+        height: auto; /* Libère la hauteur fixe */
+        padding: 10px 0;
+    }
+
+    nav ul {
+        flex-direction: column; /* Le menu devient vertical */
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0; /* Espace entre les éléments du menu */
+    }
+
+    .instagram-logo {
+        width: 40px; /* Agrandir un peu l'icône pour mobile */
+        height: 40px;
+    }
+
+    .image-un {
+        height: 50vh; /* Réduire la hauteur de l'image pour mobile */
+    }
+
+    footer {
+        position: relative; /* Empêche que le footer ne chevauche le contenu sur mobile */
+    }
+}
