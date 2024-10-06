@@ -33,7 +33,7 @@ header {
 }
 
 .instagram-logo:hover {
-    filter: invert(50%) sepia(100%) saturate(1000%) hue-rotate(180deg) brightness(100%) contrast(100%);
+    filter: brightness(1.2) saturate(1.5); /* Un effet de surbrillance moins agressif */
 }
 
 .header-top h1 {
