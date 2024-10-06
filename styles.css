@@ -88,7 +88,7 @@ section {
     border-bottom: 3px solid #002249; /* Pour séparer visuellement les sections */
 }
 
-section h1 {
+section h2 {
     justify-content: center;
 }
 
